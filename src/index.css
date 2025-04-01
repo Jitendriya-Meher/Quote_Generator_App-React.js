@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@media (max-width: 550px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
+
+.custom-toast-container{
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.main{
+    position: relative;
+}
+
+.me{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 1.6rem;
+    color: #aaa;
+}
